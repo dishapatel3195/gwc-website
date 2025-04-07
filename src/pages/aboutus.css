@@ -29,12 +29,51 @@ hr {
 .about-section {
     background-color: #EFFDFF;
     color: #003046;
+    display: flex;
+    flex-direction: row; /* horizontal layout */
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    align-items: center;
 }
 
-.about-text{
+.about-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.about-text-container h1 {
+    margin-bottom: 20px;
+}
+
+.about-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
+    margin: 0;
+}
+
+.image-diagonal {
+    flex: 1;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.image-diagonal img {
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 0 100%);
 }
 
   
@@ -53,30 +92,62 @@ hr {
   
 .experiences-section {
     background-color: #EFFDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.experiences-container{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
 }
   
 .eboard-section {
     background-color: #0C6B68;
 }
 
+
 .profile-container {
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    max-width: 100%; /* Prevent overflow */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .quote-container {
-    flex: 1; 
-    margin-right: 20px;
     background-color: #EFFDFF;
     color: #003046;
-    padding: 5px;
-  }
-  
-.spotlight {
-    width: 500px; 
-    height: auto;
+    padding: 30px;
+    flex: 1 1 300px;
+    max-width: 800px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    text-align: left;
 }
+
+.spotlight {
+    max-width: 35%;
+    height: auto;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+}
+
+
+.prez-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+  
 
 .scrollable-gallery {
     display: flex;
