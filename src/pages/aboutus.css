@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    height: 2px; 
+    background-color: #EFFDFF;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}  
+  
+.about-section, 
+.mission-section, 
+.experiences-section, 
+.eboard-section, 
+.dev-team-section {
+    width: 100%;
+    padding: 10px 50px;
+    box-sizing: border-box; 
+    color: #fff; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800; /* Extra bold */
+    font-size: 28px;
+  }
+
+.about-section {
+    background-color: #EFFDFF;
+    color: #003046;
+}
+
+.about-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+  
+.mission-section {
+    background-color: #0C6B68;
+    text-align: center;
+}
+
+.mission-text{
+    color: #43D6B9;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+  
+.experiences-section {
+    background-color: #EFFDFF;
+}
+  
+.eboard-section {
+    background-color: #0C6B68;
+}
+
+.profile-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.quote-container {
+    flex: 1; 
+    margin-right: 20px;
+    background-color: #EFFDFF;
+    color: #003046;
+    padding: 5px;
+  }
+  
+.spotlight {
+    width: 500px; 
+    height: auto;
+}
+
+.scrollable-gallery {
+    display: flex;
+    overflow-x: auto; 
+    gap: 10px;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.gwc-img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+  
+.dev-team-section {
+    background-color: #EFFDFF;
+    color: #0DA195;
+}
+
+.image-container {
+    position: relative;  /* Allow the label to be positioned absolutely within this container */
+    text-align: center;
+}
+
+.image-label {
+    position: absolute;
+    bottom: 10px;  /* Position the label towards the bottom of the image */
+    left: 0;
+    right: 0;
+    background-color: #0c6b689f;  /* Semi-transparent black background */
+    color: white;  /* Text color */
+    font-size: 25px;  /* Adjust font size */
+    padding: 20px;  /* Padding around the text */
+    margin: 0;  /* Remove any default margins */
+    text-align: center;  /* Center the text within the label */
+}
+
+  
