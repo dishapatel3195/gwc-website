@@ -36,7 +36,7 @@ function Home() {
         <div className="scrollable-gallery">
           <a href="" target="_blank" rel="noopener noreferrer">
             <div className="experiences-container">
-              <img className="gwc-img" src="assets/willowtree.png" alt="Willowtree" />
+              <img className="gwc-img-experiences" src="assets/willowtree.png" alt="Willowtree" />
               <p className="image-label">
                 Company Events<br />
                 <span style={{ fontSize: '15px' }}>Willowtree</span><br />
@@ -45,7 +45,7 @@ function Home() {
           </a>
           <a href="" target="_blank" rel="noopener noreferrer">
             <div className="experiences-container">
-              <img className="gwc-img" src="assets/cleanupcbus.png" alt="CleanUpCbus" />
+              <img className="gwc-img-experiences" src="assets/cleanupcbus.png" alt="CleanUpCbus" />
               <p className="image-label">
                 Volunteering<br />
                 <span style={{ fontSize: '15px' }}>Clean Up Columbus</span><br />
@@ -54,7 +54,7 @@ function Home() {
           </a>
           <a href="" target="_blank" rel="noopener noreferrer">
             <div className="experiences-container">
-              <img className="gwc-img" src="assets/social.jpg" alt="Social" />
+              <img className="gwc-img-experiences" src="assets/social.jpg" alt="Social" />
               <p className="image-label">
                 Socials<br />
                 <span style={{ fontSize: '15px' }}>Bi-Weekly Meeting</span><br />
@@ -105,7 +105,7 @@ function Home() {
               </p>
             </div>
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/sydney-porter" target="_blank" rel="noopener noreferrer">
             <div className="image-container">
               <img className="gwc-img" src="assets/Sydney.png" alt="Sydney" />
               <p className="image-label">
@@ -114,8 +114,36 @@ function Home() {
               </p>
             </div>
           </a>
-
-
+          <a href="https://www.linkedin.com/in/joselyn-vasquez-388270309" target="_blank" rel="noopener noreferrer">
+            <div className="image-container">
+              <img className="gwc-img" src="assets/Joselyn.jpg" alt="Joselyn" />
+              <p className="image-label">
+                Joselyn Vasquez<br />
+                <span style={{ fontSize: '15px' }}>CSE</span><br />
+              </p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/yasashwini-napa-935379234/" target="_blank" rel="noopener noreferrer">
+            <div className="image-container">
+              <img className="gwc-img" src="assets/Yash.jpeg" alt="Yash" />
+              <p className="image-label">
+                Yash Napa<br />
+                <span style={{ fontSize: '15px' }}>CSE</span><br />
+              </p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/yasashwini-napa-935379234/" target="_blank" rel="noopener noreferrer">
+            <div className="image-container">
+              <img className="gwc-img" src="assets/Yash.jpeg" alt="Yash" />
+              <p className="image-label">
+                Yash Napa<br />
+                <span style={{ fontSize: '15px' }}>CSE</span><br />
+              </p>
+            </div>
+          </a>
+        </div>
+        <div>
+            <p> </p>
         </div>
       </div>
     </div>

@@ -101,8 +101,8 @@ hr {
 
 .experiences-container{
     position: relative;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 350px;
     overflow: hidden;
     border-radius: 8px;
 }
@@ -154,13 +154,23 @@ hr {
     overflow-x: auto; 
     gap: 10px;
     padding: 10px 0;
-    justify-content: center;
+    justify-content: left;
+}
+
+.gwc-img-experiences {
+    width: 500px;
+    height: 450px;
+    object-fit: cover; 
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .gwc-img {
     width: 400px;
-    height: auto;
-    object-fit: cover;
+    height: 500px;
+    object-fit: cover; 
+    border-radius: 4px;
+    margin: 0 auto;
 }
   
 .dev-team-section {
@@ -169,21 +179,21 @@ hr {
 }
 
 .image-container {
-    position: relative;  /* Allow the label to be positioned absolutely within this container */
+    position: relative;
     text-align: center;
 }
 
 .image-label {
     position: absolute;
-    bottom: 10px;  /* Position the label towards the bottom of the image */
+    bottom: 10px;
     left: 0;
     right: 0;
-    background-color: #0c6b689f;  /* Semi-transparent black background */
-    color: white;  /* Text color */
-    font-size: 25px;  /* Adjust font size */
-    padding: 20px;  /* Padding around the text */
-    margin: 0;  /* Remove any default margins */
-    text-align: center;  /* Center the text within the label */
+    background-color: #0c6b689f;
+    color: white; 
+    font-size: 25px;
+    padding: 20px; 
+    margin: 0; 
+    text-align: center; 
 }
 
   

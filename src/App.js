@@ -6,6 +6,7 @@ import {
   Routes
 } from 'react-router-dom';
 
+import Home from './pages/home.js';
 import Calendar from './pages/calendar.js';
 import Showcase from './pages/showcase.js';
 import AboutUs from './pages/aboutus.js';
@@ -21,7 +22,7 @@ const App = () => {
 
       <main>
         <Routes>
-          <Route path="/" element={<h1>Welcome to the Home Page</h1>} />
+          <Route path="/home" element={<Home />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/showcase" element={<Showcase />} />
           <Route path="/about" element={<AboutUs />} />

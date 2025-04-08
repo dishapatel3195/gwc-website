@@ -1,8 +1,9 @@
 // src/components/Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';  // Import Link to use for navigation
+import { Link, useLocation } from 'react-router-dom';  // Import Link to use for navigation
 
 const Header = () => {
+  const location = useLocation();
   return (
     <header className="site-header">
       <div className="logo-container">
@@ -13,7 +14,12 @@ const Header = () => {
       </div>
       <nav className="navbar">
         <ul>
-          <li><Link to="/" className="active">Home</Link></li>
+             <Link
+              to="/home"
+              className={location.pathname === '/home' ? 'active' : ''}
+            >
+              Home
+            </Link>
           <li><Link to="/calendar">Calendar</Link></li>
           <li><Link to="/showcase">Showcase</Link></li>
           <li><Link to="/about">About Us</Link></li>
