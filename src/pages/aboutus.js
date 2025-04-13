@@ -132,20 +132,11 @@ function Home() {
               </p>
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/yasashwini-napa-935379234/" target="_blank" rel="noopener noreferrer">
-            <div className="image-container">
-              <img className="gwc-img" src="assets/Yash.jpeg" alt="Yash" />
-              <p className="image-label">
-                Yash Napa<br />
-                <span style={{ fontSize: '15px' }}>CSE</span><br />
-              </p>
-            </div>
-          </a>
           <a href="https://www.linkedin.com/in/jasmine-fang-23325b354" target="_blank" rel="noopener noreferrer">
             <div className="image-container">
               <img className="gwc-img" src="assets/Jasmine.JPG" alt="Yash" />
               <p className="image-label">
-                Yash Napa<br />
+                Jasmine Fang<br />
                 <span style={{ fontSize: '15px' }}>CSE</span><br />
               </p>
             </div>
